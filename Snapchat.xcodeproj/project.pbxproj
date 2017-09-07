@@ -15,6 +15,7 @@
 		F8E9782A1F5FD54E0093E2C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8E978281F5FD54E0093E2C8 /* Main.storyboard */; };
 		F8E9782C1F5FD54E0093E2C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8E9782B1F5FD54E0093E2C8 /* Assets.xcassets */; };
 		F8E9782F1F5FD54E0093E2C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8E9782D1F5FD54E0093E2C8 /* LaunchScreen.storyboard */; };
+		F8FC1BFF1F618AC100A5F76D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FC1BFE1F618AC100A5F76D /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		F8E9782B1F5FD54E0093E2C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8E9782E1F5FD54E0093E2C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8E978301F5FD54E0093E2C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8FC1BFE1F618AC100A5F76D /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		FA347140C0CCCEF35B23BC28 /* Pods_Snapchat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snapchat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -93,6 +95,7 @@
 			children = (
 				F8E978241F5FD54E0093E2C8 /* AppDelegate.swift */,
 				F8E978261F5FD54E0093E2C8 /* SingInViewController.swift */,
+				F8FC1BFE1F618AC100A5F76D /* SignUpViewController.swift */,
 				F8E978281F5FD54E0093E2C8 /* Main.storyboard */,
 				F8E9782B1F5FD54E0093E2C8 /* Assets.xcassets */,
 				F8E9782D1F5FD54E0093E2C8 /* LaunchScreen.storyboard */,
@@ -241,6 +244,7 @@
 			files = (
 				F89EECBF1F61631D0041BE4A /* HelpersViewController.swift in Sources */,
 				F8E978271F5FD54E0093E2C8 /* SingInViewController.swift in Sources */,
+				F8FC1BFF1F618AC100A5F76D /* SignUpViewController.swift in Sources */,
 				F8E978251F5FD54E0093E2C8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

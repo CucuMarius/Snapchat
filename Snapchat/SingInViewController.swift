@@ -52,13 +52,16 @@ class SignInViewController: HelpersViewController {
         //SFARSIT adaugare mesaje de eroare in cazul in care campurile pentru user si parola nu au fost finalizate
         
         //din FIREBASE am setat ca login-ul sa sa realizeze cu username si parola. In continuare scriem cod aferent acestui lucru
+        //verificare autentificare
         Auth.auth().signIn(withEmail: usernameTextField.text!, password: passwordTextField.text!) { (user, error) in
             print("We tried to sign in!")
-            if error != nil{
+            if error != nil {
                 print("Hey! We have an error: \(error)")
+                self.showAlertView(title: "Eroare!", message: "Username sau parola gresite!")
             }
             else {
                 print("Siged in succesufully!")
+                self.performSegue(withIdentifier: "signInSegue", sender: nil)
             }
         }
     }
